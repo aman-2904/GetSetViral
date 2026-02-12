@@ -2,7 +2,7 @@ import type { Route } from "./+types/clients";
 import { Header } from "~/components/header/header";
 import styles from "./clients.module.css";
 
-export function meta({}: Route.MetaArgs) {
+export function meta({ }: Route.MetaArgs) {
   return [
     { title: "Clients - KrazyFox" },
     {
@@ -15,9 +15,14 @@ export function meta({}: Route.MetaArgs) {
 
 const clients = [
   {
-    name: "Fenty Beauty",
-    industry: "Beauty & Cosmetics",
-    logo: "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=200&q=80",
+    name: "Saffola",
+    industry: "Food & Wellness",
+    logo: "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=200&q=80",
+  },
+  {
+    name: "Paytm",
+    industry: "Fintech & Payments",
+    logo: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=200&q=80",
   },
   {
     name: "Acko Insurance",
@@ -25,24 +30,49 @@ const clients = [
     logo: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=200&q=80",
   },
   {
-    name: "Lakme",
-    industry: "Beauty & Fashion",
-    logo: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=200&q=80",
+    name: "Mahindra Paybima",
+    industry: "Insurance",
+    logo: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=200&q=80",
   },
   {
-    name: "Auto Vista Care",
-    industry: "Automotive Services",
+    name: "Health",
+    industry: "Healthcare & Wellness",
+    logo: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=200&q=80",
+  },
+  {
+    name: "Ozivia",
+    industry: "Lifestyle & Wellness",
+    logo: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=200&q=80",
+  },
+  {
+    name: "MuscleBlaze",
+    industry: "Fitness & Nutrition",
+    logo: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=200&q=80",
+  },
+  {
+    name: "Maggie",
+    industry: "Food & Beverages",
+    logo: "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=200&q=80",
+  },
+  {
+    name: "Jio",
+    industry: "Telecommunications",
+    logo: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=200&q=80",
+  },
+  {
+    name: "Zee Entertainment",
+    industry: "Media & Entertainment",
+    logo: "https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?w=200&q=80",
+  },
+  {
+    name: "Bajaj",
+    industry: "Financial Services",
+    logo: "https://images.unsplash.com/photo-1601597111158-2fceff292cdc?w=200&q=80",
+  },
+  {
+    name: "Tata Motors",
+    industry: "Automotive",
     logo: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=200&q=80",
-  },
-  {
-    name: "TIRTIR",
-    industry: "K-Beauty",
-    logo: "https://images.unsplash.com/photo-1560343090-f0409e92791a?w=200&q=80",
-  },
-  {
-    name: "Tech Innovations",
-    industry: "Technology",
-    logo: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=200&q=80",
   },
 ];
 
