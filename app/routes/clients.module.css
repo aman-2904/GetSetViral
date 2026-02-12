@@ -326,3 +326,200 @@
     font-size: 2rem;
   }
 }
+/* Footer Styles */
+.footer {
+  background: #3E3759;
+  color: white;
+  padding: 0;
+}
+
+.footerContainer {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.footerNav {
+  display: flex;
+  gap: var(--space-7);
+  padding: var(--space-6) var(--space-6);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.footerNavLink {
+  color: white;
+  text-decoration: none;
+  font-size: var(--font-size-1);
+  font-weight: 400;
+  transition: opacity 0.2s ease;
+}
+
+.footerNavLink:hover {
+  opacity: 0.7;
+}
+
+.footerContact {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr auto;
+  gap: var(--space-8);
+  align-items: start;
+  padding: var(--space-7) var(--space-6);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.footerContactLeft {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.footerContactTitle {
+  font-size: var(--font-size-3);
+  font-weight: 400;
+  color: white;
+  margin-bottom: var(--space-1);
+}
+
+.footerContactEmail {
+  color: white;
+  text-decoration: none;
+  font-size: var(--font-size-3);
+  transition: opacity 0.2s ease;
+}
+
+.footerContactEmail:hover {
+  opacity: 0.7;
+}
+
+.footerContactRight {
+  display: flex;
+  align-items: start;
+}
+
+.footerAddress {
+  font-size: var(--font-size-3);
+  color: white;
+  line-height: 1.6;
+}
+
+.footerSocial {
+  display: flex;
+  gap: var(--space-3);
+  align-items: start;
+}
+
+.footerSocialLink {
+  width: 60px;
+  height: 60px;
+  border: 2px solid white;
+  border-radius: var(--radius-4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.footerSocialLink:hover {
+  background: white;
+  color: #3E3759;
+}
+
+.footerSocialLink:nth-child(1):hover {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  color: white;
+  border-color: transparent;
+}
+
+.footerSocialLink:nth-child(2):hover {
+  background: #0077B5;
+  color: white;
+  border-color: transparent;
+}
+
+.footerSocialIcon {
+  width: 28px;
+  height: 28px;
+}
+
+.footerBottom {
+  padding: var(--space-8) var(--space-6);
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.footerLogoText {
+  font-size: 180px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+
+.footerCopyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-5) var(--space-6);
+  background: #3E3759;
+}
+
+.footerCopyrightLogo {
+  height: 36px;
+  width: auto;
+}
+
+.footerCopyrightText {
+  font-size: var(--font-size-1);
+  color: rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width: 1024px) {
+  .footerContact {
+    grid-template-columns: 1fr;
+    gap: var(--space-5);
+  }
+
+  .footerBottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footerLogoText {
+    font-size: 120px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footerNav {
+    flex-wrap: wrap;
+    gap: var(--space-4);
+    padding: var(--space-5) var(--space-4);
+  }
+
+  .footerNavLink {
+    font-size: var(--font-size-2);
+  }
+
+  .footerContact {
+    padding: var(--space-5) var(--space-4);
+  }
+
+  .footerBottom {
+    padding: var(--space-6) var(--space-4);
+  }
+
+  .footerLogoText {
+    font-size: 80px;
+  }
+
+  .footerCopyright {
+    padding: var(--space-5) var(--space-4);
+    flex-direction: column;
+    gap: var(--space-4);
+    align-items: flex-start;
+  }
+}

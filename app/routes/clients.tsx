@@ -1,6 +1,9 @@
 import type { Route } from "./+types/clients";
+import { Link } from "react-router";
 import { Header } from "~/components/header/header";
+import { Instagram, Linkedin } from "lucide-react";
 import styles from "./clients.module.css";
+import FooterLogo from "/footerlogo.png";
 
 export function meta({ }: Route.MetaArgs) {
   return [
@@ -131,6 +134,72 @@ export default function Clients() {
           ))}
         </section>
       </main>
+
+      {/* Footer */}
+      <footer className={styles.footer}>
+        <div className={styles.footerContainer}>
+          <div className={styles.footerNav}>
+            <Link to="/" className={styles.footerNavLink}>
+              Site Map
+            </Link>
+            <Link to="/" className={styles.footerNavLink}>
+              Content Board
+            </Link>
+            <Link to="/#services" className={styles.footerNavLink}>
+              Services
+            </Link>
+            <Link to="/case-studies" className={styles.footerNavLink}>
+              Case Studies
+            </Link>
+            <Link to="/clients" className={styles.footerNavLink}>
+              Clients
+            </Link>
+          </div>
+
+          <div className={styles.footerContact}>
+            <div className={styles.footerContactLeft}>
+              <div className={styles.footerContactTitle}>Get in Touch</div>
+              <a href="mailto:connect@krazyfox.in" className={styles.footerContactEmail}>
+                connect@falconnetwork.in
+              </a>
+            </div>
+            <div className={styles.footerContactRight}>
+              <div className={styles.footerAddress}>
+                24/1, Madhava Nagar, Gandhi Nagar,
+                <br />
+                Bengaluru, Karnataka 560001
+              </div>
+            </div>
+            <div className={styles.footerSocial}>
+              <a
+                href="https://www.instagram.com/krazyfoxdigital/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.footerSocialLink}
+              >
+                <Instagram className={styles.footerSocialIcon} />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/krazyfoxdigital/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.footerSocialLink}
+              >
+                <Linkedin className={styles.footerSocialIcon} />
+              </a>
+            </div>
+          </div>
+
+          <div className={styles.footerBottom}>
+            <div className={styles.footerLogoText}>GET SET VIRAL</div>
+          </div>
+
+          <div className={styles.footerCopyright}>
+            <img src={FooterLogo} alt="Get Set Viral" className={styles.footerCopyrightLogo} />
+            <span className={styles.footerCopyrightText}>© Get Set Viral Technology Pvt. Ltd. All Rights Reserved</span>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
