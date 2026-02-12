@@ -3,7 +3,7 @@ import { ArrowUpRight } from "lucide-react";
 import { useState, useEffect } from "react";
 import classNames from "classnames";
 import styles from "./header.module.css";
-import GetSetViral_logo03 from "/logoGetSet.png";
+import GetSetViral_logo03 from "/finallogo.png";
 
 export function Header() {
   const location = useLocation();
