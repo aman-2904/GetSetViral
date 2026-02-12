@@ -9,7 +9,7 @@ import { ArrowRight, Instagram, Linkedin } from "lucide-react";
 import _1 from "/1.png";
 import _9 from "/9.png";
 import _3 from "/3.png";
-import FooterLogo from "/get-set-viral-logo-02.png";
+import FooterLogo from "/footerlogo.png";
 
 export function meta({ }: Route.MetaArgs) {
   return [

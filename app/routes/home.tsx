@@ -9,7 +9,7 @@ import { ProjectCard } from "~/components/project-card/project-card";
 import { Carousel, CarouselContent, CarouselItem, type CarouselApi } from "~/components/ui/carousel/carousel";
 import { projects } from "~/data/projects";
 import styles from "./home.module.css";
-import FooterLogo from "/get-set-viral-logo-02.png";
+import FooterLogo from "/footerlogo.png";
 
 export function meta({ }: Route.MetaArgs) {
   return [
