@@ -244,7 +244,7 @@
   position: absolute;
   width: 110px;
   height: 110px;
-  background: #5a5bd6;
+  background: #55D04C;
   color: white;
   border-radius: 50%;
   font-size: var(--font-size-2);
@@ -736,7 +736,7 @@
 }
 
 .ctaButton {
-  background: #5a5bd6;
+  background: #55D04C;
   color: white;
   border: none;
   padding: var(--space-4) var(--space-6);
@@ -752,7 +752,7 @@
 }
 
 .ctaButton:hover {
-  background: #4a4bc6;
+  background: #3E3759;
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(90, 91, 214, 0.3);
 }
