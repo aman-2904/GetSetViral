@@ -439,12 +439,12 @@ export default function Home() {
           </div>
 
           <div className={styles.footerBottom}>
-            <div className={styles.footerLogoText}>Falcon Network</div>
+            <div className={styles.footerLogoText}>GET SET VIRAL</div>
           </div>
 
           <div className={styles.footerCopyright}>
             <img src={FooterLogo} alt="Get Set Viral" className={styles.footerCopyrightLogo} />
-            <span className={styles.footerCopyrightText}>© Falcon Network Technology Pvt. Ltd. All Rights Reserved</span>
+            <span className={styles.footerCopyrightText}>© Get Set Viral Technology Pvt. Ltd. All Rights Reserved</span>
           </div>
         </div>
       </footer>
