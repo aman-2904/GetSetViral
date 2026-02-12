@@ -180,7 +180,7 @@
 }
 
 .startCampaignButton {
-  background: #5a5bd6;
+  background: #3E3759;
   color: white;
   border: none;
   padding: var(--space-4) var(--space-6);
@@ -196,7 +196,7 @@
 }
 
 .startCampaignButton:hover {
-  background: #4a4bc6;
+  background: #55D04C;
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(90, 91, 214, 0.3);
 }
