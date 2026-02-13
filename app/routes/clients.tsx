@@ -20,62 +20,62 @@ const clients = [
   {
     name: "Saffola",
     industry: "Food & Wellness",
-    logo: "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=200&q=80",
+    logo: "/saffola.png",
   },
   {
     name: "Paytm",
     industry: "Fintech & Payments",
-    logo: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=200&q=80",
+    logo: "/paytm1.png",
   },
   {
     name: "Acko Insurance",
     industry: "Insurance & Fintech",
-    logo: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=200&q=80",
+    logo: "/acko.png",
   },
   {
     name: "Mahindra Paybima",
     industry: "Insurance",
-    logo: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=200&q=80",
+    logo: "/mahindra1.png",
   },
   {
-    name: "Health",
-    industry: "Healthcare & Wellness",
-    logo: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=200&q=80",
+    name: "Flipkart",
+    industry: "E-commerce",
+    logo: "/flipkart.webp",
   },
   {
     name: "Ozivia",
     industry: "Lifestyle & Wellness",
-    logo: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=200&q=80",
+    logo: "/oziva1.png",
   },
   {
     name: "MuscleBlaze",
     industry: "Fitness & Nutrition",
-    logo: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=200&q=80",
+    logo: "/muscleblaze.jpg",
   },
   {
     name: "Maggie",
     industry: "Food & Beverages",
-    logo: "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=200&q=80",
+    logo: "/Maggie.png",
   },
   {
     name: "Jio",
     industry: "Telecommunications",
-    logo: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=200&q=80",
+    logo: "/jio.png",
   },
   {
     name: "Zee Entertainment",
     industry: "Media & Entertainment",
-    logo: "https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?w=200&q=80",
+    logo: "/zee.png",
   },
   {
     name: "Bajaj",
     industry: "Financial Services",
-    logo: "https://images.unsplash.com/photo-1601597111158-2fceff292cdc?w=200&q=80",
+    logo: "/bajaj.jpg",
   },
   {
     name: "Tata Motors",
     industry: "Automotive",
-    logo: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=200&q=80",
+    logo: "/tata2.png",
   },
 ];
 
